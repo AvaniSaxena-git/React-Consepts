@@ -7,6 +7,7 @@ const Register = () => {
   const [password, setPassword] = useState("");
   const [fullName,setFullName] = useState("");
   const [Number,setNumber] = useState("");
+  
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -15,9 +16,10 @@ const Register = () => {
   };
 
   return (
-    <div className="flex justify-center items-center h-[100vh] bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url(https://i.pinimg.com/736x/54/bc/e3/54bce3bcae3a56f12995463ba9698026.jpg)" }}>
-    <form onSubmit={handleSubmit} className="bg-white-900 p-6 rounded-lg shadow-lg w-[480px] h-[500px] :">
-      <h2 className="mb-5 text-center text-3xl font-semibold text-white">Register</h2>
+    <div>
+    <div className="flex justify-center items-center h-screen ml-[900px] bg-center bg-no-repeat" style={{ backgroundImage: "url(https://i.pinimg.com/736x/0f/a0/02/0fa002a2aa800e88a798017cf974a83a.jpg)" }}>
+    <form onSubmit={handleSubmit} className="bg-white-900 px-72 py-32 mr-[1700px] w-[1200px] rounded-lg shadow-lg :">
+      <h2 className="mb-56 text-center text-3xl font-semibold text-gray-800">Register</h2>
        
 
      <div className="mb-4">
@@ -64,6 +66,7 @@ const Register = () => {
 
 
     </form>
+  </div>
   </div>
   );
 };

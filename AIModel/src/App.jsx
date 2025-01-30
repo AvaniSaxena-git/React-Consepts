@@ -7,13 +7,16 @@ import Login from './components/Login';
 import Register from './components/Register';
 import RegistrationForm from './components/RegistrationForm';
 
+
 function App() {
   return (<>
+  
     
     <Router><Firstpage/>
-    <Login/>
-    
-    <RegistrationForm/>
+  <Login/>
+  <Register/>
+  <RegistrationForm/>
+      
       <Navbar />
      <Routes>
         <Route path="/" element={ <div>Home Page</div>}> 

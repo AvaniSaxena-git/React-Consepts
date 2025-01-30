@@ -13,8 +13,8 @@ const Login = () => {
   };
 
   return (
-    <div className="flex justify-center items-center h-screen bg-cover ml-0 bg-center bg-no-repeat" style={{ backgroundImage: "url(https://i.pinimg.com/736x/43/5b/68/435b681bd9207055f4b6db94611bd50c.jpg)" }}>
-    <form onSubmit={handleSubmit} className=" mr-[700px] bg-white-900 p-6 rounded-lg shadow-lg w-[480px] h-[500px] :">
+    <div className="flex justify-center items-center h-screen ml-[900px] bg-center bg-no-repeat" style={{ backgroundImage: "url(https://i.pinimg.com/736x/0f/a0/02/0fa002a2aa800e88a798017cf974a83a.jpg)" }}>
+    <form onSubmit={handleSubmit} className=" ml-[400px] bg-white-900 p-6 rounded-lg shadow-lg w-[480px] h-[500px] :">
       <h2 className="mb-5 text-center text-3xl font-semibold text-white">Login</h2>
       <div className="mb-4">
         <label htmlFor="email" className="block text-base mt-8 font-medium text-white ">Email:</label>

@@ -9,12 +9,12 @@ function Firstpage(){
         <div className="mt-[400px] ml-[1000px] ">  
         <div className="flex items-center justify-center mt-10  ">
           <a href="">
-            <button className=" py-2 px-10 bg-blue-562 text-white rounded-lg hover:bg-zinc-900 transition mx-10 text-center text-xl font-medium focus:outline-none border-white border">
+            <button className=" py-2 px-8 bg-blue-562 text-white rounded-lg hover:bg-zinc-900 transition mx-10 text-center text-xl font-medium focus:outline-none border-white border">
               Register
             </button>
           </a>
           <a href="">
-            <button className=" py-2 px-10 bg-blue-562 text-white rounded-lg hover:bg-zinc-900 transition text-center text-xl font-medium focus:outline-none border-white border">
+            <button className=" py-2 px-8 bg-blue-562 text-white rounded-lg hover:bg-zinc-900 transition text-center text-xl font-medium focus:outline-none border-white border">
               Login
             </button>
           </a>
