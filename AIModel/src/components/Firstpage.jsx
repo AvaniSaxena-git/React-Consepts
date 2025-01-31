@@ -21,6 +21,7 @@ function Firstpage() {
             solutions empower healthcare providers to anticipate patient needs,
             identify risks early, and deliver more personalized, effective care.
           </p>
+          
         </div>
       </div>
     </div>
