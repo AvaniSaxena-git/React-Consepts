@@ -1,23 +1,33 @@
 import React from "react";
-function Contactus(){
-return(
-<div className=" justify-center bg-cyan-950 items-center  bg-cover h-screen ">
-<div className="text-gray-50 font-bold from-stone-800 text-7xl mb-[200px]  ml-[600px]  ">
-Contact Us
-</div>
 
-<div className="text-gray-50 mt-[20vh]  mr-[400px] ml-44 font-medium text-4xl">Address
-    <p className="text-gray-50 text-xl mt-4 w-48 font-light">BN-56 <br/> Narela 462041 , Bhopal MP </p>
-    
+const ContactUs = () => {
+  return (
+    <div className="flex justify-center items-center min-h-screen bg-cyan-950 text-white px-4">
+      <div className="w-full max-w-5xl text-center">
+        <h1 className="text-7xl font-bold mb-72">Contact Us</h1>
+
+        <div className="flex flex-col  md:flex-row justify-center items-center gap-48 ">
+          {/* Address */}
+          <div className="  h-72 w-52 bg-opacity-10 rounded-lg min-w-[250px] text-center">
+            <h2 className="text-4xl font-semibold ">Address</h2>
+            <p className="text-xl mt-6 font-light ">BN-56<br />Narela 462041,<br />Bhopal MP</p>
+          </div>
+
+          {/* Phone */}
+          <div className="  h-72 w-52 bg-opacity-10  rounded-lg min-w-[250px] text-center">
+            <h2 className="text-4xl font-semibold">Phone</h2>
+            <p className="text-xl mt-6 font-light">8435106498 , 8535948625 , 9895672895 </p>
+          </div>
+
+          {/* Email */}
+          <div className="  h-72 w-52  bg-opacity-10 rounded-lg min-w-[250px] text-center">
+            <h2 className="text-4xl font-semibold">Email</h2>
+            <p className="text-xl mt-6 font-light">avanisaxena@gmail.com , bhartibisen09@gmail.com</p>
+          </div>
+        </div>
+      </div>
     </div>
-    
-    <div className="text-gray-50  mt-[0vh] ml-[90vh] font-medium text-4xl">Phone
-    <p className="text-gray-50 text-xl mt-4 w-48 font-light">8435106498,</p>  </div>
+  );
+};
 
- <div className="text-gray-50  ml-[150vh] mb-[400px] font-medium text-4xl">Email
-    <p className="text-gray-50 text-xl mt-4 w-48 font-light">avanisaxena2005@gmail.com  </p>
-</div>
-</div>
-)
-}
-export default Contactus
+export default ContactUs
