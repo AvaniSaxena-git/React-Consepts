@@ -6,13 +6,18 @@ import Navbar from './components/Navbar';
 import Login from './components/Login';
 import Register from './components/Register';
 import RegistrationForm from './components/RegistrationForm';
+import About from './components/About';
+import Contactus from './components/Contactus';
 
 
 function App() {
   return (<>
   
     
-    <Router><Firstpage/>
+    <Router>
+      <Contactus/>
+        <Firstpage/>
+    <About/>
   <Login/>
   <Register/>
   <RegistrationForm/>
