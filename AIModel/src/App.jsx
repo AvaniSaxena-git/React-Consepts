@@ -40,11 +40,14 @@
 // export default App
 
 
-import React from 'react'
+
 import './App.css'
 import { Route, BrowserRouter as Router, Routes  } from 'react-router-dom'
 import Firstpage from './components/Firstpage'
 import Login from './components/Login'
+import ContactUs from './components/Contactus'
+import RegistrationForm from './components/RegistrationForm'
+import About from './components/About'
 const App = () => {
   return (
     <div>
@@ -53,7 +56,9 @@ const App = () => {
             <Routes>
                 <Route path="/" element={<Firstpage/>}></Route>
                 <Route path="/login" element={<Login/>}></Route>
-                <Route path="/contact" element={<Co/>}></Route>
+                <Route path="/register" element={<RegistrationForm/>}></Route>
+                <Route path="/about" element={<About/>}></Route>
+                <Route path="/contact" element={<ContactUs/>}></Route>
             </Routes>
         </Router>
       </div>
