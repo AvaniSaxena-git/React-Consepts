@@ -45,6 +45,7 @@ import './App.css'
 import { Route, BrowserRouter as Router, Routes  } from 'react-router-dom'
 import Firstpage from './components/Firstpage'
 import Login from './components/Login'
+import ContactUs from './components/Contactus'
 const App = () => {
   return (
     <div>
@@ -53,7 +54,7 @@ const App = () => {
             <Routes>
                 <Route path="/" element={<Firstpage/>}></Route>
                 <Route path="/login" element={<Login/>}></Route>
-                <Route path="/contact" element={<Co/>}></Route>
+                
             </Routes>
         </Router>
       </div>
