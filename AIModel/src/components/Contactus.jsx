@@ -1,8 +1,10 @@
-
+import Navbar from "./Navbar";
 
 const ContactUs = () => {
   return (
-    <div className="flex justify-center items-center min-h-screen bg-cyan-950 text-white px-4">
+    <div>
+        <Navbar/>
+    <div className="flex justify-center items-center min-h-screen bg-cyan-900 text-white px-4">
       <div className="w-full max-w-5xl text-center">
         <h1 className="text-7xl font-bold mb-72">Contact Us</h1>
 
@@ -26,7 +28,7 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div></div>
   );
 };
 

@@ -3,8 +3,8 @@ import { Link } from "react-router-dom"; // If you're using react-router-dom for
 const Navbar = () => {
   return (
     <div className="">
-      <nav className="bg-blue-950 p-4">
-        <div className="max-w-7xl text-xl mx-auto flex justify-between items-center">
+      <nav className="bg-cyan-950 p-9">
+        <div className="max-w-7xl text-2xl mx-auto flex justify-between items-center">
           <div className="text-white text-lg font-semibold">Logo</div>
           <ul className="flex space-x-8 text-white">
             <li>
@@ -24,7 +24,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link to="/register">
-                <button className=" rounded">Registration</button>
+                <button className=" rounded">Register</button>
               </Link>
             </li>
             <li>
