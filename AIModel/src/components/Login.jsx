@@ -14,11 +14,11 @@ const Login = () => {
 
   return (
     <div> <Navbar/>
-    <div className=" bg-cyan-900 items-center min-h-screen bg-center bg-no-repeat" style={{ backgroundImage: "url()" }}>
-    <form onSubmit={handleSubmit} className="   bg-white-900 p-6 rounded-lg shadow-lg w-[500px] h-[600px] items-center ml-[500px]  "> 
+    <div className=" items-center min-h-screen bg-center bg-no-repeat mt-10">
+    <form onSubmit={handleSubmit} className="   bg-white-900 p-6 rounded-lg shadow-lg w-[500px] h-[500px] items-center ml-[500px]  "> 
       <h2 className="mb-5 text-center  text-3xl font-semibold text-gray-50">Login</h2>
       <div className="mb-4">
-        <label htmlFor="email" className="block text-base mt-11 font-medium text-gray-50">Email:</label>
+        <label htmlFor="email" className="block text-base mt-11 font-medium text-gray-500">Email:</label>
         <input
           type="email"
           id="email"
@@ -29,7 +29,7 @@ const Login = () => {
         />
       </div>
       <div className="mb-4">
-        <label htmlFor="password" className="block  mt-8 font-medium text-base text-gray-50">Password:</label>
+        <label htmlFor="password" className="block  mt-8 font-medium text-base text-gray-500">Password:</label>
         <input
           type="password"
           id="password"

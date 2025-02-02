@@ -4,14 +4,14 @@ function Firstpage() {
     <div>
       <Navbar />
 
-      <div className="w-full bg-cover bg-center bg-cyan-800 bg-no-repeat h-[90vh] flex">
+      <div className="w-full bg-cover bg-center text-black bg-no-repeat h-[90vh] flex ">
         <img
-          src="https://i.pinimg.com/736x/f5/8f/0b/f58f0b59ec8dadbd251883f175f2a188.jpg"
+          src="/src/assets/First_page.jpeg"
           alt=""
-          className="w-[900px] h-[600px] mt-2 ml-0 mx-5"
+          className="w-[750px] h-[500px] flex justify-center items-center mt-5"
         />
 
-        <div className="  text-3xl h-[300px]   text-gray-300 mt-32 w-full ">
+        <div className="  text-3xl h-[300px]   text-gray-400 mt-32 w-full font-medium ">
           <div className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
             <p className="text-6xl mb-3 font-bold mx-16 leading-3">At</p>
             <p className="text-6xl font-bold mx-16">HealthPredictAI,</p>

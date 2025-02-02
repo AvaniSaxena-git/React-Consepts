@@ -1,35 +1,55 @@
 import Navbar from "./Navbar";
-
+import { MdOutlineLocationOn } from "react-icons/md";
+import { MdOutlineLocalPhone } from "react-icons/md";
+import { RiMessage2Line } from "react-icons/ri";
 const ContactUs = () => {
   return (
     <div>
-        <Navbar/>
-    <div className="flex justify-center items-center min-h-screen bg-cyan-900 text-white px-4">
-      <div className="w-full max-w-5xl text-center">
-        <h1 className="text-7xl font-bold mb-72">Contact Us</h1>
-
-        <div className="flex flex-col  md:flex-row justify-center items-center gap-48 ">
-          {/* Address */}
-          <div className="  h-72 w-52 bg-opacity-10 rounded-lg min-w-[250px] text-center">
-            <h2 className="text-4xl font-semibold ">Address</h2>
-            <p className="text-xl mt-6 font-light ">BN-56<br />Narela 462041,<br />Bhopal MP</p>
+      <Navbar />
+      <div className="bg-cyan-950 h-screen">
+        <div className="flex flex- col items-center justify-center">
+          <h1 className="text-white text-center text-5xl font-bold pt-10">
+        GET IN TOUCH
+          </h1>
+        </div>
+        <div className="mt-20  flex justify-center items-center gap-28">
+          <div className="flex flex-col items-center justify-center text-center">
+            {/* Address */}
+            <div className="w-20 h-20 bg-sky-500 rounded-full flex items-center justify-center">
+              <MdOutlineLocationOn color="white" size={50} />
+            </div>
+            <h1 className="text-2xl text-white  font-semibold mt-4">ADDRESS</h1>
+            <div className="text-xl text-white font-semibold mt-1">
+              <h5>BN-56 Narela 462041</h5>
+              <h5>Bhopal (MP)</h5>
+            </div>
           </div>
-
           {/* Phone */}
-          <div className="  h-72 w-52 bg-opacity-10  rounded-lg min-w-[250px] text-center">
-            <h2 className="text-4xl font-semibold">Phone</h2>
-            <p className="text-xl mt-6 font-light">8435106498 , 8535948625 , 9895672895 </p>
+          <div className="text-center flex flex-col items-center justify-center">
+            <div className="w-20 h-20 bg-sky-500 rounded-full flex items-center justify-center">
+              <MdOutlineLocalPhone color="white" size={50} />
+            </div>
+            <h1 className="text-2xl text-white  font-semibold mt-4 ">Phone</h1>
+            <div className="text-xl text-white font-semibold mt-1">
+              <h5>8435106498</h5>
+              <h5>9878543210</h5>
+            </div>
           </div>
-
-          {/* Email */}
-          <div className="  h-72 w-52  bg-opacity-10 rounded-lg min-w-[250px] text-center">
-            <h2 className="text-4xl font-semibold">Email</h2>
-            <p className="text-xl mt-6 font-light">avanisaxena@gmail.com , bhartibisen09@gmail.com</p>
+          {/* E-mail */}
+          <div className="text-center flex flex-col items-center justify-center">
+            <div className="w-20 h-20 bg-sky-500 rounded-full flex items-center justify-center">
+              <RiMessage2Line color="white" size={40} />
+            </div>
+            <h1 className="text-2xl text-white  font-semibold mt-4 ">E-mail</h1>
+            <div className="text-xl text-white font-semibold mt-1">
+              <h5>avanisaxena2005@gmai.com</h5>
+              <h5>bhartibisen09@gmail.com</h5>
+            </div>
           </div>
         </div>
       </div>
-    </div></div>
+    </div>
   );
 };
 
-export default ContactUs
+export default ContactUs;
