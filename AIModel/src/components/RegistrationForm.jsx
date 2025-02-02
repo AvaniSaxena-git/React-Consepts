@@ -28,7 +28,7 @@ const RegistrationForm = () => {
 
   return (
     <div className="flex  h-screen bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url(https://i.pinimg.com/736x/66/c1/29/66c12990e044a5a6cf899e2b193bdebf.jpg)" }}>
-      <form onSubmit={handleSubmit} className="bg-white p-8 rounded-lg shadow-lg w-full max-w-[800px] h-auto m-[20px]"> 
+      <form onSubmit={handleSubmit} className="bg-white p-8 rounded-lg shadow-lg w-full max-w-[800px] h-[600px] mx-[30px] mt-3"> 
         <h2 className="mb-5 text-center text-3xl font-semibold text-gray-700">Registration</h2>
         
         {/* First row: Full Name and Email */}

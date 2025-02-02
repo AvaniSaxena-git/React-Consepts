@@ -1,28 +1,16 @@
-
-
+// import { LuMessageSquareMore } from "react-icons/lu";
+import { MdOutlineLocationOn } from "react-icons/md";
 const ContactUs = () => {
   return (
-    <div className="flex justify-center items-center min-h-screen bg-cyan-950 text-white px-4">
-      <div className="w-full max-w-5xl text-center">
-        <h1 className="text-7xl font-bold mb-72">Contact Us</h1>
-
-        <div className="flex flex-col  md:flex-row justify-center items-center gap-48 ">
-          {/* Address */}
-          <div className="  h-72 w-52 bg-opacity-10 rounded-lg min-w-[250px] text-center">
-            <h2 className="text-4xl font-semibold ">Address</h2>
-            <p className="text-xl mt-6 font-light ">BN-56<br />Narela 462041,<br />Bhopal MP</p>
-          </div>
-
-          {/* Phone */}
-          <div className="  h-72 w-52 bg-opacity-10  rounded-lg min-w-[250px] text-center">
-            <h2 className="text-4xl font-semibold">Phone</h2>
-            <p className="text-xl mt-6 font-light">8435106498 , 8535948625 , 9895672895 </p>
-          </div>
-
-          {/* Email */}
-          <div className="  h-72 w-52  bg-opacity-10 rounded-lg min-w-[250px] text-center">
-            <h2 className="text-4xl font-semibold">Email</h2>
-            <p className="text-xl mt-6 font-light">avanisaxena@gmail.com , bhartibisen09@gmail.com</p>
+    <div>
+      <div className=" bg-cyan-950 h-screen">
+        <div className="text-white text-6xl font-bold pt-14 text-center">
+          Get IN TOUCH
+        </div>
+        {/* Address */}
+        <div className="m-16">
+          <div className="h-20 w-20 bg-sky-400 rounded-full flex items-center justify-center">
+            <MdOutlineLocationOn color="white" size={53} />
           </div>
         </div>
       </div>
@@ -30,4 +18,4 @@ const ContactUs = () => {
   );
 };
 
-export default ContactUs
+export default ContactUs;
