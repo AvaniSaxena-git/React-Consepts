@@ -2,11 +2,14 @@ import React from "react";
 import Navbar from "./Navbar";
 function About() {
   return (<div>
-    <Navbar />
-    <div className="bg-gray-50 min-h-screen text-gray-800">
-
+    
+    <div className="bg-gray-50 min-h-screen  text-gray-800">
+    <header className="bg-teal-700 text-white py-5 text-center">
+        <h1 className="text-4xl font-extrabold">About Us</h1>
+       
+      </header>
       {/* Header Section */}
-      <header className="bg-teal-600 text-white py-10 text-center">
+      <header className="bg-teal-600 text-white py-10  text-center">
         <h1 className="text-4xl font-extrabold">WellNess AI</h1>
         <p className="mt-4 text-lg">Predicting Future Diseases & Offering Personalized Recommendations</p>
       </header>

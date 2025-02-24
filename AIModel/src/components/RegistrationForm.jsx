@@ -28,20 +28,16 @@ const RegistrationForm = () => {
   };
 
   return (
-    <div>
-      <Navbar />
+    
       <div>
-        <img
-          src="/src/assets/Register_page.jpg"
-          className="w-full bg-cover"
-        />
-      </div>
-      <div className="flex justify-center items-center mt-10 flex-col">
+        
+      
+      <div className="flex bg-slate-300 justify-center items-center flex-col">
         <form
           onSubmit={handleSubmit}
           className="bg-white p-8 rounded-lg shadow-lg w-full max-w-[800px] h-auto m-[20px]"
         >
-          <h2 className="mb-5 text-center text-3xl font-semibold text-gray-700">
+          <h2 className="mb-20 text-center text-3xl font-semibold text-gray-700">
             Register
           </h2>
 
@@ -182,7 +178,7 @@ const RegistrationForm = () => {
             />
             <button
               type="submit"
-              className="w-full mt-5 bg-blue-500 text-white p-3 rounded-lg hover:bg-blue-700"
+              className="w-[40%] mt-5 ml-52 bg-blue-500 text-white p-3 rounded-lg hover:bg-blue-700"
             >
               Register
             </button>
@@ -191,7 +187,7 @@ const RegistrationForm = () => {
           {/* Account */}
           <div className="w-full mt-3 p-3 text-xl font-medium text-slate-800 text-center flex items-center justify-center gap-1">
             <h1>Have an account?</h1>
-            <Link to="/login" className="text-teal-700">
+            <Link to="/login" className="text-teal-700 font-bold">
               Log in
             </Link>
           </div>
@@ -227,9 +223,9 @@ const RegistrationForm = () => {
   </Link>
 </div>
 
-
+</div>
       </div>
-    </div>
+   
   );
 };
 

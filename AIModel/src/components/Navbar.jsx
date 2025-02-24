@@ -8,11 +8,9 @@ const Navbar = () => {
           {/* Logo Image */}
           <div className="flex items-center">
             <img
-              src="https://i.pinimg.com/736x/c5/de/31/c5de310fc68fb65b8305fbf3d72d9682.jpg"
-              alt="Logo"
               className="h-12 rounded-full w-auto" // You can adjust the height and width as needed
             />
-           <p className="text-slate-100 ml-1 font-bold text-3xl"> MediForetell</p>
+           <p className="text-slate-100 ml-1 font-bold text-3xl">WellnessAI</p>
           </div>
 
           {/* Navigation Links */}
@@ -22,16 +20,8 @@ const Navbar = () => {
                 Home
               </Link>
             </li>
-            <li>
-              <Link to="/about" className="hover:text-gray-300">
-                About
-              </Link>
-            </li>
-            <li>
-              <Link to="/contact" className="hover:text-gray-300 ">
-                Contact Us
-              </Link>
-            </li>
+           
+           
             <li>
               <Link to="/register">
                 <button className="rounded">Register</button>
